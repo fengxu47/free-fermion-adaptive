@@ -61,7 +61,7 @@ for step=1:Nstep
             #     end
             # end
             if rand() <0.5
-                bitstings[i]=mod(bitstrings[i]+1,2) 
+                bitstrings[i]=mod(bitstrings[i]+1,2) 
                 bitstrings[i+1]=mod(bitstrings[i+1]+1,2)
             end
             fvec[i]=1
